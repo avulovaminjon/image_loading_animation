@@ -1,0 +1,47 @@
+/* Containerni o'rtaga joylashtirish */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f5f5f5;
+    margin: 0;
+}
+
+/* Rasm konteyneri */
+.image-container {
+    position: relative;
+    width: 300px;
+    height: 300px;
+}
+
+/* Yuklash animatsiyasi */
+.loading-spinner {
+    border: 6px solid #f3f3f3;
+    border-top: 6px solid #3498db;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    animation: spin 1s linear infinite;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* Spin animatsiyasi */
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+/* Yuklangan rasmni ko'rinish */
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
