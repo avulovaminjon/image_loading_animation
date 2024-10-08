@@ -12,7 +12,7 @@ This project implements an image loading animation using HTML, CSS, and JavaScri
 
 You can view a demo of this project below:
 
-![Demo GIF](https://via.placeholder.com/400x300.png?text=Demo+GIF)
+![Demo GIF](https://cdn.dribbble.com/users/2177259/screenshots/6364756/loader_animation.gif?text=Demo+GIF)
 
 ## Technologies Used
 
