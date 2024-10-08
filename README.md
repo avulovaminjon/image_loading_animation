@@ -38,3 +38,29 @@ Here’s a simplified version of the key code:
     <div class="loading-spinner" id="loading-spinner"></div>
     <img id="image" src="https://example.com/your-image.jpg" alt="Image" style="display: none;">
 </div>
+
+<style>
+    .loading-spinner {
+    border: 6px solid #f3f3f3;
+    border-top: 6px solid #3498db;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    animation: spin 1s linear infinite;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+</style>
